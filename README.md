@@ -35,7 +35,7 @@ O algoritmo selecionado para este estudo foi o **Random Forest Classifier** (Flo
 A eficácia do modelo foi validada através da análise de erros e acertos no conjunto de teste:
 * **Verdadeiros Positivos:** O modelo identificou corretamente 247 estudantes de elite.
 * **Falsos Negativos:** Houve apenas 22 casos onde o modelo falhou em identificar um aluno de elite, indicando uma alta sensibilidade (*recall*) para o fenômeno estudado.
-
+![Matriz de Confusão](graficos/matriz_confusao.png)
 
 
 ### Importância das Variáveis (Feature Importance)
@@ -43,6 +43,7 @@ A análise de pesos revela a hierarquia dos fatores preditivos no desempenho esc
 * **Rede Estadual:** Identificada como o principal preditor, detendo um peso de aproximadamente 50% na decisão do modelo.
 * **Rede Privada:** Consolida-se como o segundo fator de maior influência, reafirmando que a dependência administrativa é o filtro estrutural mais rígido no acesso ao topo da pirâmide de notas.
 * **Fatores Secundários:** A escolha do idioma estrangeiro e a localização da escola apresentam pesos significativamente menores, indicando que, no contexto de BH, a rede de ensino prevalece sobre a localização geográfica.
+![Importância das Variáveis](graficos/importância_variaveis.png)
 
 ---
 
